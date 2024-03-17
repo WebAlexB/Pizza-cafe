@@ -1,0 +1,12 @@
+/*!* Стили для map *!*/
+.contact-block {
+    display: flex;
+}
+.map, .info-contact {
+    flex-grow: 1;
+}
+
+.banner-pizza {
+    width: 100%;
+    margin: auto;
+}

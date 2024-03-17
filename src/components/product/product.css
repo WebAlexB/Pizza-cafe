@@ -1,0 +1,65 @@
+
+/*!* Стили для top product *!*/
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+.item-list {
+    margin: -25px 0px auto;
+}
+.name-product {
+    margin: 20px 20px auto;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.product-section {
+    padding: 20px 20px
+}
+
+.image-product img {
+    position: absolute;
+    left: -31px;
+    bottom: -33px;
+}
+
+.products h3 {
+    font-size: 25px;
+    color: rgb(236, 198, 0);
+}
+.ingredients-product {
+    padding: 10px 0px
+}
+
+.ingredients-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.product {
+    border-radius: 15px;
+    background: rgb(240, 240, 240);
+    position: relative;
+}
+.product input {
+    border: unset;
+}
+.contact-quantity {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    margin: 15px auto;
+}
+.quantity-product {
+    display: flex;
+    justify-content: center;
+}

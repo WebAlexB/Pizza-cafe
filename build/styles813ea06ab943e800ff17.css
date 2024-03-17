@@ -1,0 +1,369 @@
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/header/header.css ***!
+  \************************************************************************************/
+/* Стили для хедера и футера */
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 20px 0;
+    height: 119px;
+    background: rgb(240, 240, 240);
+
+}
+
+.header-yummu, .footer-yummu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-header, .logo-header, .info-header, .logo-footer, .menu-footer, .social-footer {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    text-align: center;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header p {
+    padding: 0px 10px;
+}
+.info-header a {
+    color: black;
+}
+
+.menu-header a, .menu-footer a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu-header a {
+    color: #333;
+}
+.menu-header a {
+    margin: 0 10px auto;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 20px 0;
+    height: 119px;
+    background: rgb(240, 240, 240);
+
+}
+
+.header-yummu, .footer-yummu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-header, .logo-header, .info-header, .logo-footer, .menu-footer, .social-footer {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    text-align: center;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header p {
+    padding: 0px 10px;
+}
+.info-header a {
+    color: black;
+}
+
+.menu-header a, .menu-footer a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu-header a {
+    color: #333;
+}
+.menu-header a {
+    margin: 0 10px auto;
+}
+/*!**************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/product/product.css ***!
+  \**************************************************************************************/
+
+/*!* Стили для top product *!*/
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    margin: 0 auto;
+    padding: 0px 100px;
+}
+.item-list {
+    margin: -25px 0px auto;
+}
+.name-product {
+    margin: 20px 20px auto;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.product-section {
+    padding: 20px 20px
+}
+
+.image-product img {
+    position: absolute;
+    left: -31px;
+    bottom: -33px;
+}
+
+.products h3 {
+    font-size: 25px;
+    color: rgb(236, 198, 0);
+}
+.ingredients-product {
+    padding: 10px 0px
+}
+
+.ingredients-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.product {
+    border-radius: 15px;
+    background: rgb(240, 240, 240);
+    position: relative;
+}
+.product input {
+    border: unset;
+}
+.contact-quantity {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    margin: 15px auto;
+}
+.quantity-product {
+    display: flex;
+    justify-content: center;
+}
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/topProduct/topProduct.css ***!
+  \********************************************************************************************/
+/*!* Стили для top product *!*/
+
+.tabs {
+    display: grid;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.tab {
+    display: flex;
+}
+
+.tab a {
+    margin: 0 70px auto;
+    font-size: 25px;
+    padding: 20px 60px;
+    border-radius: 27px;
+    border: 1px solid black;
+    color: black;
+}
+.tab a:hover {
+    background: rgb(236, 198, 0);
+    border: unset;
+}
+.title-top {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.title h2 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.info-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-product-name p {
+    font-size: 19px;
+    margin: 20px auto;
+    color: white;
+    padding-bottom: 20px;
+}
+.top-product-name .name-top {
+    font-size: 25px;
+    color: rgb(236, 198, 0);
+    text-transform: uppercase;
+
+}
+.top-item {
+    display: flex;
+}
+.top-product {
+    background: rgb(54, 54, 54);
+}
+.content-top {
+    display: flex;
+    height: 30px;
+    align-items: flex-end;
+}
+.top-product-name {
+    padding: 25px 10px;
+}
+.first-top {
+    margin-left: 25px;
+}
+.button-sent {
+    height: 60px;
+    border-radius: 27px;
+    width: 200px;
+    background: rgb(236, 198, 0);
+    font-size: 16px;
+}
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/contactBlock/contactBlock.css ***!
+  \************************************************************************************************/
+/*!* Стили для map *!*/
+.contact-block {
+    display: flex;
+}
+.map, .info-contact {
+    flex-grow: 1;
+}
+
+.banner-pizza {
+    width: 100%;
+    margin: auto;
+}
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/footer/footer.css ***!
+  \************************************************************************************/
+.footer-yummu {
+    background: rgb(54, 54, 54);
+    color: white;
+    height: 245px;
+}
+.menu-footer a {
+    color: white;
+}
+.menu-footer a {
+    margin: 0 10px auto;
+}
+.menu-footer a {
+    width: auto;
+}
+
+.social-footer img {
+    margin-left: 20px;
+}
+.menu-footer a {
+    color: white;
+}
+.menu-footer a {
+    margin: 0 10px auto;
+}
+.menu-footer a {
+    width: auto;
+}
+
+.social-footer img {
+    margin-left: 20px;
+}
+
+.footer-yummu {
+    background: rgb(54, 54, 54);
+    color: white;
+    height: 245px;
+}
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/app/app.css ***!
+  \******************************************************************************/
+/* Общие стили */
+body, html {
+    padding: 0;
+    background: #ffffff;
+    color: #898989;
+    font-family: Ubuntu sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    overflow-x: hidden;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+    font-family: Ubuntu sans-serif;
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+
+.section {
+    background: rgb(234, 234, 234);
+}
+
+.section .products {
+    padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-footer a {
+        margin: 0 2px auto;
+    }
+    .menu-header a {
+        color: #333;
+    }
+    .menu-header a {
+        margin: 0 5px auto;
+    }
+    .menu-header a, .menu-footer a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
