@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <footer className="footer-yummu">
                 <div className="logo-footer">
-                    <a href="#"><img src="static/images/logo/logo_pizza.png" alt="logo"/></a>
+                    <a href="#"><img src="static/images/footer/logo-footer.png" alt="logo"/></a>
                 </div>
                 <div className="menu-footer">
                     <a href="#">Меню</a>
